@@ -1,7 +1,7 @@
 const db = require("./prepare");
 
 const sql = `
-SELECT * FROM USER
+SELECT * FROM USERS
 `
 
 db.all(sql, function (err, rows) {

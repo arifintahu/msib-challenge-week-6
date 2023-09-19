@@ -21,14 +21,14 @@ const users = [
 function prepareDatabase() {
   const db = new sqlite3.Database(":memory:");
   db.serialize(function () {
-    db.run(`CREATE TABLE USER (
+    db.run(`CREATE TABLE USERS (
           ID int NOT NULL,
           UserName varchar(255) NOT NULL,
           Parent int NOT NULL,
           PRIMARY KEY (ID)
         )`);
 
-    const query = db.prepare("INSERT INTO USER VALUES (?, ?, ?)");
+    const query = db.prepare("INSERT INTO USERS VALUES (?, ?, ?)");
     for (let i in users) {
       const user = users[i];
       query.run(user.id, user.userName, user.parent);
