@@ -51,11 +51,11 @@ Orders Table:
 | 107   | 4          | 2023-07-05 | 90.00       |
 
 Please write an SQL query to find the names of customers using `sub-query` who have placed the highest number of orders in the following format. In case of a tie, list all customers with the same highest number of orders.
-| Name  | Total Orders  |
-|-------|---------------|
-| Alice | 2             |
-| Bob   | 2             |
-| Carol | 2             |
+| Name  |
+|-------|
+| Alice |
+| Bob   |
+| Carol |
 
 **Note:** In the example data, Alice, Bob, and Carol have each placed two orders, which is the highest number of orders among customers. Therefore, all three names should be listed in alphabetical order.
 
