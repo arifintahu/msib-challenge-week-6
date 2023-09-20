@@ -63,7 +63,8 @@ Please write an SQL query to find the names of customers using `sub-query` who h
 1. Fork this [repository](https://github.com/arifintahu/msib-challenge-week-6)
 2. Clone forked repository
 3. Create a new branch `git checkout -b solution`
-4. Create a folder of your nickname `mkdir nickname`
-5. Copy cases in challenges directory to your own folder
-6. Commit and push your changes
-7. Create a Pull Request to original repository
+4. Install dependencies `npm install`
+5. Create a folder of your nickname `mkdir nickname`
+6. Copy cases in challenges directory to your own folder
+7. Commit and push your changes
+8. Create a Pull Request to original repository
