@@ -1,4 +1,4 @@
-# Challenge Week 5 - Database Querying
+# Challenge Week 6 - Database Querying
 
 ## Case 1 - Join Query
 In the database, there is a table named **"USER"** that consists of three columns: `ID`, `UserName`, and `Parent`. Here's the explanation:
