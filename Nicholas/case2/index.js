@@ -13,7 +13,7 @@ WHERE ID IN (
             SELECT COUNT(ID) AS order_count
             FROM Orders
             GROUP BY CustomerID
-        ) AS counts
+        ) AS order_count
     )
 )
 ORDER BY Name;

@@ -2,15 +2,15 @@ const db = require("./prepare");
 
 const sql = `
   SELECT
-    u1.ID AS 'ID',
-    u1.UserName AS 'UserName', 
-    u2.UserName AS 'ParentUserName' 
+    col1.ID,
+    col1.UserName, 
+    col2.UserName AS 'ParentUserName' 
   FROM 
-    USERS u1 
+    USERS col1 
   LEFT JOIN 
-    USERS u2 
+    USERS col2 
   ON 
-    u1.Parent = u2.ID
+    col1.Parent = col2.ID
 `;
 
 db.all(sql, function (err, rows) {
